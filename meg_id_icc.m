@@ -6,7 +6,7 @@
 %
 % Code Authors: Ekansh Sareen, Alessandra Griffa, Enrico Amico
 % version 1.0 (15 July, 2021)
-%
+% Queries can be sent to: enrico.amico@epfl.ch
 % Please cite us: 
 % Ekansh Sareen, Sélima Zahar, Dimitri Van De Ville, Anubha Gupta, Alessandra Griffa, Enrico Amico,
 % Exploring MEG brain fingerprints: Evaluation, pitfalls, and interpretations, NeuroImage,
