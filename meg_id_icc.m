@@ -26,8 +26,8 @@ load(fullfile('FCMethods','AECc','tensor_sub_connmat_sesh1.mat'));
 load(fullfile('FCMethods','AECc','tensor_sub_connmat_sesh2.mat'));
 load(fullfile('FCMethods','PLM','tensor_sub_connmat_sesh1.mat'));
 load(fullfile('FCMethods','PLM','tensor_sub_connmat_sesh2.mat'));
-load(fullfile('FCMethods','wPLI','tensor_sub_connmat_sesh1.mat'));
-load(fullfile('FCMethods','wPLI','tensor_sub_connmat_sesh2.mat'));
+load(fullfile('FCMethods','WPLI','tensor_sub_connmat_sesh1.mat'));
+load(fullfile('FCMethods','WPLI','tensor_sub_connmat_sesh2.mat'));
 
 % Connectomes: 148x148x5x20 (148 brain regions, 5 frequency bands, 20 subjects)
 
