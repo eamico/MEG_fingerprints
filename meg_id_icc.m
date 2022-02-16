@@ -19,15 +19,15 @@ addpath(genpath('functions'));
 %% [Part 1.1] Computing Identifiability Matrix
 % Computing the subjectxsubject Identifiability matrix
 
-% Load the session 1 and session 2 connectomes from the 'FCMethods' folder for
+% Load the session 1 and session 2 connectomes from the 'FCData' folder for
 % 3 FC measures (AECc, PLM, wPLI). 
-
-load(fullfile('FCMethods','AECc','tensor_sub_connmat_sesh1.mat'));
-load(fullfile('FCMethods','AECc','tensor_sub_connmat_sesh2.mat'));
-load(fullfile('FCMethods','PLM','tensor_sub_connmat_sesh1.mat'));
-load(fullfile('FCMethods','PLM','tensor_sub_connmat_sesh2.mat'));
-load(fullfile('FCMethods','WPLI','tensor_sub_connmat_sesh1.mat'));
-load(fullfile('FCMethods','WPLI','tensor_sub_connmat_sesh2.mat'));
+Path2Data = 'FCData';
+load(fullfile(Path2Data,'AECc','tensor_sub_connmat_sesh1.mat'));
+load(fullfile(Path2Data,'AECc','tensor_sub_connmat_sesh2.mat'));
+load(fullfile(Path2Data,'PLM','tensor_sub_connmat_sesh1.mat'));
+load(fullfile(Path2Data,'PLM','tensor_sub_connmat_sesh2.mat'));
+load(fullfile(Path2Data,'WPLI','tensor_sub_connmat_sesh1.mat'));
+load(fullfile(Path2Data,'WPLI','tensor_sub_connmat_sesh2.mat'));
 
 % Connectomes: 148x148x5x20 (148 brain regions, 5 frequency bands, 20 subjects)
 
