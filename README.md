@@ -2,7 +2,8 @@ Sample code to reproduce results of the manuscript *"Exploring MEG brain fingerp
 
 # MEG Fingerprints
 
-Run the main script: meg_id_icc.m. The code generates Fig.2 and Fig. 3  of the paper (only the Intra-class correlation matrices) for the alpha and beta bands, for 3 MEG Functional Connectivity measures (i.e., AECc, PLM, wPLI). More comment and details are provided within the main script. Also, some sample connectomes are included in the repo to make the code standalone.
+Run the main script: meg_id_icc.m. The code generates Fig.2 and Fig. 3  of the paper (only the Intra-class correlation matrices) for the alpha and beta bands, for 3 MEG Functional Connectivity measures (i.e., AECc, PLM, wPLI). More comment and details are provided within the main script. Also, some sample connectomes are included in the repo to make the code standalone. 
+The main script "perm_main" runs the Permutation Testing (PT) framework to assess the statistical significance of the differential identifiability and success rate scores, as explained in (Sareen et. al 2021, NeuroImage).
 
 
 # MEG Source reconstruction
