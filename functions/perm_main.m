@@ -1,7 +1,7 @@
 % Permutation Testing (PT) framework to assess the statistical significance of 
 % the differential identifiability and success rate scores. Script linked 
 % with the methodology mentioned in the research article 
-% Sareen et. al 2021, NeuroImage.
+% Sareen et. al, "Exploring MEG brain fingerprints: Evaluation, pitfalls, and interpretations", 2021, NeuroImage.
 % 
 % Requirements:
 % ID_construct(), id_params(), sucrate(), and perm_con()
